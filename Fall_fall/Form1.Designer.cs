@@ -54,8 +54,9 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(187, 577);
+            this.panel1.Size = new System.Drawing.Size(164, 433);
             this.panel1.TabIndex = 0;
             // 
             // btnSettings
@@ -65,9 +66,10 @@
             this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSettings.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnSettings.Location = new System.Drawing.Point(0, 548);
+            this.btnSettings.Location = new System.Drawing.Point(0, 411);
+            this.btnSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(187, 29);
+            this.btnSettings.Size = new System.Drawing.Size(164, 22);
             this.btnSettings.TabIndex = 1;
             this.btnSettings.Text = "Settings";
             this.btnSettings.UseVisualStyleBackColor = true;
@@ -79,9 +81,10 @@
             this.btnContactUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnContactUs.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnContactUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnContactUs.Location = new System.Drawing.Point(0, 202);
+            this.btnContactUs.Location = new System.Drawing.Point(0, 152);
+            this.btnContactUs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnContactUs.Name = "btnContactUs";
-            this.btnContactUs.Size = new System.Drawing.Size(187, 29);
+            this.btnContactUs.Size = new System.Drawing.Size(164, 22);
             this.btnContactUs.TabIndex = 1;
             this.btnContactUs.Text = "Contact us";
             this.btnContactUs.UseVisualStyleBackColor = true;
@@ -93,9 +96,10 @@
             this.btnAnalytics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnalytics.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAnalytics.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnAnalytics.Location = new System.Drawing.Point(0, 173);
+            this.btnAnalytics.Location = new System.Drawing.Point(0, 130);
+            this.btnAnalytics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAnalytics.Name = "btnAnalytics";
-            this.btnAnalytics.Size = new System.Drawing.Size(187, 29);
+            this.btnAnalytics.Size = new System.Drawing.Size(164, 22);
             this.btnAnalytics.TabIndex = 1;
             this.btnAnalytics.Text = "Analytics";
             this.btnAnalytics.UseVisualStyleBackColor = true;
@@ -107,9 +111,10 @@
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnDashboard.Location = new System.Drawing.Point(0, 144);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 108);
+            this.btnDashboard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(187, 29);
+            this.btnDashboard.Size = new System.Drawing.Size(164, 22);
             this.btnDashboard.TabIndex = 1;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.UseVisualStyleBackColor = true;
@@ -123,16 +128,18 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(187, 144);
+            this.panel2.Size = new System.Drawing.Size(164, 108);
             this.panel2.TabIndex = 0;
             // 
             // pnlNav
             // 
             this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.pnlNav.Location = new System.Drawing.Point(0, 193);
+            this.pnlNav.Location = new System.Drawing.Point(0, 145);
+            this.pnlNav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlNav.Name = "pnlNav";
-            this.pnlNav.Size = new System.Drawing.Size(3, 100);
+            this.pnlNav.Size = new System.Drawing.Size(3, 75);
             this.pnlNav.TabIndex = 1;
             // 
             // label2
@@ -140,9 +147,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(178)))));
-            this.label2.Location = new System.Drawing.Point(70, 108);
+            this.label2.Location = new System.Drawing.Point(61, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 15);
+            this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Active";
             // 
@@ -151,18 +158,19 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
-            this.label1.Location = new System.Drawing.Point(50, 88);
+            this.label1.Location = new System.Drawing.Point(44, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 20);
+            this.label1.Size = new System.Drawing.Size(70, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Baiching";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Fall_fall.Properties.Resources.blank_profile_picture_g1f808bc28_1280;
-            this.pictureBox1.Location = new System.Drawing.Point(60, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(52, 16);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 63);
+            this.pictureBox1.Size = new System.Drawing.Size(55, 47);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -170,9 +178,10 @@
             // btnStart
             // 
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnStart.Location = new System.Drawing.Point(375, 157);
+            this.btnStart.Location = new System.Drawing.Point(317, 130);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(94, 29);
+            this.btnStart.Size = new System.Drawing.Size(82, 22);
             this.btnStart.TabIndex = 2;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -180,12 +189,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(951, 577);
+            this.ClientSize = new System.Drawing.Size(832, 433);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fall Detection System";

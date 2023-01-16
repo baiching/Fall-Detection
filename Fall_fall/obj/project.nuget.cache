@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "19t2mPUXEfsKaCakpBgKdJ0dJDHuQ0TcdyrtQf5t4JrLtDMn63LnhhWxNpn7W9VT7OXGoykXWXFfgX54J8qBrw==",
+  "dgSpecHash": "15bjHvMjZUwlwMJN8s8rWw0jl5BQIMG8cEd4UJFz+mvO9SbvMfUnOjwvJHmoIf4g0qmmAQhsCSSzd+Bdmq7ZDQ==",
   "success": true,
-  "projectFilePath": "F:\\Fall_Detection\\Fall_fall\\Fall_fall\\Fall_fall.csproj",
+  "projectFilePath": "D:\\Projects\\Fall-Detection\\Fall-Detection\\Fall_fall\\Fall_fall.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\autoclosingmessagebox\\1.0.0.2\\autoclosingmessagebox.1.0.0.2.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\livecharts.winforms\\0.9.7.1\\livecharts.winforms.0.9.7.1.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\system.reactive\\4.3.2\\system.reactive.4.3.2.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\system.threading.channels\\4.7.0\\system.threading.channels.4.7.0.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\websocket.client\\4.4.43\\websocket.client.4.4.43.nupkg.sha512",
-    "C:\\Users\\Uthowaipru Chowdhury\\.nuget\\packages\\websocketsharp-nonprerelease\\1.0.0\\websocketsharp-nonprerelease.1.0.0.nupkg.sha512"
+    "C:\\Users\\bachm\\.nuget\\packages\\autoclosingmessagebox\\1.0.0.2\\autoclosingmessagebox.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\livecharts.winforms\\0.9.7.1\\livecharts.winforms.0.9.7.1.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\system.reactive\\4.3.2\\system.reactive.4.3.2.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\system.threading.channels\\4.7.0\\system.threading.channels.4.7.0.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\websocket.client\\4.4.43\\websocket.client.4.4.43.nupkg.sha512",
+    "C:\\Users\\bachm\\.nuget\\packages\\websocketsharp-nonprerelease\\1.0.0\\websocketsharp-nonprerelease.1.0.0.nupkg.sha512"
   ],
   "logs": [
     {
