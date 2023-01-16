@@ -56,7 +56,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(164, 433);
+            this.panel1.Size = new System.Drawing.Size(114, 433);
             this.panel1.TabIndex = 0;
             // 
             // btnSettings
@@ -69,7 +69,7 @@
             this.btnSettings.Location = new System.Drawing.Point(0, 411);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(164, 22);
+            this.btnSettings.Size = new System.Drawing.Size(114, 22);
             this.btnSettings.TabIndex = 1;
             this.btnSettings.Text = "Settings";
             this.btnSettings.UseVisualStyleBackColor = true;
@@ -84,7 +84,7 @@
             this.btnContactUs.Location = new System.Drawing.Point(0, 152);
             this.btnContactUs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnContactUs.Name = "btnContactUs";
-            this.btnContactUs.Size = new System.Drawing.Size(164, 22);
+            this.btnContactUs.Size = new System.Drawing.Size(114, 22);
             this.btnContactUs.TabIndex = 1;
             this.btnContactUs.Text = "Contact us";
             this.btnContactUs.UseVisualStyleBackColor = true;
@@ -99,7 +99,7 @@
             this.btnAnalytics.Location = new System.Drawing.Point(0, 130);
             this.btnAnalytics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAnalytics.Name = "btnAnalytics";
-            this.btnAnalytics.Size = new System.Drawing.Size(164, 22);
+            this.btnAnalytics.Size = new System.Drawing.Size(114, 22);
             this.btnAnalytics.TabIndex = 1;
             this.btnAnalytics.Text = "Analytics";
             this.btnAnalytics.UseVisualStyleBackColor = true;
@@ -114,7 +114,7 @@
             this.btnDashboard.Location = new System.Drawing.Point(0, 108);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(164, 22);
+            this.btnDashboard.Size = new System.Drawing.Size(114, 22);
             this.btnDashboard.TabIndex = 1;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(164, 108);
+            this.panel2.Size = new System.Drawing.Size(114, 108);
             this.panel2.TabIndex = 0;
             // 
             // pnlNav
@@ -147,7 +147,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(178)))));
-            this.label2.Location = new System.Drawing.Point(61, 81);
+            this.label2.Location = new System.Drawing.Point(34, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 2;
@@ -158,7 +158,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
-            this.label1.Location = new System.Drawing.Point(44, 66);
+            this.label1.Location = new System.Drawing.Point(21, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 17);
             this.label1.TabIndex = 1;
@@ -167,7 +167,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Fall_fall.Properties.Resources.blank_profile_picture_g1f808bc28_1280;
-            this.pictureBox1.Location = new System.Drawing.Point(52, 16);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 17);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(55, 47);
@@ -178,7 +178,7 @@
             // btnStart
             // 
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnStart.Location = new System.Drawing.Point(317, 130);
+            this.btnStart.Location = new System.Drawing.Point(170, 108);
             this.btnStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(82, 22);
@@ -192,7 +192,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(832, 433);
+            this.ClientSize = new System.Drawing.Size(371, 433);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
