@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fall_fall", "Fall_fall\Fall
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccelarationTest", "AccelarationTest\AccelarationTest.csproj", "{A3F8FC92-0A56-4BDF-8598-F1CC9E4D76A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newFall", "newFall\newFall.csproj", "{73621691-4504-4F1C-920C-1989283ED612}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{A3F8FC92-0A56-4BDF-8598-F1CC9E4D76A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3F8FC92-0A56-4BDF-8598-F1CC9E4D76A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3F8FC92-0A56-4BDF-8598-F1CC9E4D76A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73621691-4504-4F1C-920C-1989283ED612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73621691-4504-4F1C-920C-1989283ED612}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73621691-4504-4F1C-920C-1989283ED612}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73621691-4504-4F1C-920C-1989283ED612}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
