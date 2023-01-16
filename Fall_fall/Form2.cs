@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
-using Npgsql;
+//using Npgsql;
 namespace Login_and_Register_System
 {
     public partial class frmRegister : Form
@@ -18,9 +18,9 @@ namespace Login_and_Register_System
             InitializeComponent();
         }
      
-        NpgsqlConnection conn = new  NpgsqlConnection(ConfigurationManager.AppSettings.Get("MyConnection"));
-        NpgsqlCommand cmd = new NpgsqlCommand();
-        NpgsqlDataAdapter da = new NpgsqlDataAdapter();
+        //NpgsqlConnection conn = new  NpgsqlConnection(ConfigurationManager.AppSettings.Get("MyConnection"));
+        //NpgsqlCommand cmd = new NpgsqlCommand();
+        //NpgsqlDataAdapter da = new NpgsqlDataAdapter();
         private void Form1_Load(object sender, EventArgs e)
         {
 

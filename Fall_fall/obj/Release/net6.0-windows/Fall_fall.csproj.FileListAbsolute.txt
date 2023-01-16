@@ -1,0 +1,10 @@
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.csproj.AssemblyReference.cache
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.Form1.resources
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Login_and_Register_System.frmRegister.resources
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Login_and_Register_System.LoginForm.resources
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.Properties.Resources.resources
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.csproj.GenerateResource.cache
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.AssemblyInfoInputs.cache
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.AssemblyInfo.cs
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Release\net6.0-windows\Fall_fall.csproj.CoreCompileInputs.cache
