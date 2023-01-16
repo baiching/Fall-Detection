@@ -1,4 +1,4 @@
-﻿namespace Login_and_Register_System
+﻿namespace Fall_fall
 {
     partial class frmRegister
     {
@@ -127,7 +127,7 @@
             this.registrationButton.ForeColor = System.Drawing.Color.White;
             this.registrationButton.Location = new System.Drawing.Point(26, 321);
             this.registrationButton.Name = "registrationButton";
-            this.registrationButton.Size = new System.Drawing.Size(218, 28);
+            this.registrationButton.Size = new System.Drawing.Size(222, 38);
             this.registrationButton.TabIndex = 4;
             this.registrationButton.Text = "REGISTER";
             this.registrationButton.UseVisualStyleBackColor = false;
@@ -141,9 +141,9 @@
             this.clearButton.FlatAppearance.BorderSize = 2;
             this.clearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clearButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.clearButton.Location = new System.Drawing.Point(26, 370);
+            this.clearButton.Location = new System.Drawing.Point(26, 365);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(218, 28);
+            this.clearButton.Size = new System.Drawing.Size(222, 33);
             this.clearButton.TabIndex = 4;
             this.clearButton.Text = "CLEAR";
             this.clearButton.UseVisualStyleBackColor = false;
@@ -168,7 +168,6 @@
             this.label6.Size = new System.Drawing.Size(97, 17);
             this.label6.TabIndex = 5;
             this.label6.Text = "Back to LOGIN";
-            //this.label6.Click += new System.EventHandler(this.label6_Click_1);
             // 
             // label7
             // 
@@ -230,7 +229,6 @@
             this.Controls.Add(this.label3);
             this.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

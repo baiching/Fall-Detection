@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 //using Npgsql;
-namespace Login_and_Register_System
+namespace Fall_fall
 {
     public partial class frmRegister : Form
     {

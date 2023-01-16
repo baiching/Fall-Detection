@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="222lk.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoClosingMessageBox" Version="1.0.0.2" />
     <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />

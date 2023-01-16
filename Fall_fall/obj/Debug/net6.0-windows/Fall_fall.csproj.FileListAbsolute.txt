@@ -54,7 +54,7 @@ D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\ref
 D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\Fall_fall.pdb
 D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\Fall_fall.genruntimeconfig.cache
 D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\ref\Fall_fall.dll
-D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\Login_and_Register_System.frmRegister.resources
-D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\Login_and_Register_System.LoginForm.resources
 D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\bin\Debug\net6.0-windows\DemoDB.db
 D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\bin\Debug\net6.0-windows\Fall_fall.dll.config
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\Fall_fall.frmRegister.resources
+D:\Projects\Fall-Detection\Fall-Detection\Fall_fall\obj\Debug\net6.0-windows\Fall_fall.LoginForm.resources
