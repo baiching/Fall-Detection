@@ -96,5 +96,13 @@ namespace Fall_fall
         //    new LoginForm().Show();
         //    this.Hide();
         }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+            LoginForm frm = new LoginForm();
+            frm.Show();
+            this.Hide();
+
+        }
     }
 }
