@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
+using Fall_fall.Model;
 //using Npgsql;
 namespace Fall_fall
 {
@@ -29,7 +30,7 @@ namespace Fall_fall
         private void button1_Click(object sender, EventArgs e)
         {
             txtUsername.Text = "";
-            //txtPassword.Text = "";
+            txtPassword.Text = "";
             txtComPassword.Text = "";
             txtUsername.Focus();
         }
@@ -41,67 +42,78 @@ namespace Fall_fall
 
         private void registrationButton_Click(object sender, EventArgs e)
         {
-            // if(txtUsername.Text == "" && txtPassword.Text == "" && txtComPassword.Text == "")
-            //{
-            //    MessageBox.Show("Username and Password fields are empty", "Sign Up Failed", MessageBoxButtons.OK,MessageBoxIcon.Error);
-            //}
-            //else if(txtPassword.Text == txtComPassword.Text)
-            //{
-            //    try
-            //    {
-            //     conn.Open();
-            //        MessageBox.Show("Connection opened");
-            //        string register = "INSERT INTO csharp_user (username,password) VALUES ('" + txtUsername.Text+"','"+txtPassword.Text+"')";
-            //        cmd = new NpgsqlCommand( register, conn);
-            //        cmd.ExecuteNonQuery();
-            //        conn.Close();
-            //        txtUsername.Text = "";
-            //        txtPassword.Text = "";
-            //        txtComPassword.Text = "";
-            //        MessageBox.Show("Your account has been Successfully Created", "Registration Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show(ex.Message);
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Passwords does not match, Please Re-enter", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    txtComPassword.Text = "";
-            //    txtPassword.Text = "";
-            //    txtPassword.Focus();
+            PersonModel p = new PersonModel();
 
-            //}
+            
+
+            //txtUsername.Text = "";
+            //txtComPassword.Text = "";
+            if (txtUsername.Text == "" && txtPassword.Text == "" && txtComPassword.Text == "")
+            {
+                MessageBox.Show("Username and Password fields are empty", "Sign Up Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (txtPassword.Text == txtComPassword.Text)
+            {
+                try
+                {
+                    p.UserName = txtUsername.Text;
+                    p.Password = txtComPassword.Text;
+                    p.AgeGroup = comboBox1.SelectedIndex;
+
+                    SqliteDataAccess.SavePerson(p);
+
+                    txtUsername.Text = "";
+                    txtPassword.Text = "";
+                    txtComPassword.Text = "";
+                    MessageBox.Show("Your account has been Successfully Created", "Registration Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Passwords does not match, Please Re-enter", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtComPassword.Text = "";
+                txtPassword.Text = "";
+                txtPassword.Focus();
+
+            }
         }
 
         private void checkboxShowPass_CheckedChanged(object sender, EventArgs e)
         {
-        // if (checkboxShowPass.Checked)
-        //    {
-        //        txtPassword.PasswordChar = '\0';
-        //        txtComPassword.PasswordChar = '\0';
+            if (checkboxShowPass.Checked)
+            {
+                txtPassword.PasswordChar = '\0';
+                txtComPassword.PasswordChar = '\0';
 
-        //    }
-        //    else
-        //    {
-        //        txtPassword.PasswordChar = '*';
-        //        txtComPassword.PasswordChar = '*';
-        //    }
-        //}
+            }
+            else
+            {
+                txtPassword.PasswordChar = '*';
+                txtComPassword.PasswordChar = '*';
+            }
+        }
 
         //private void label6_Click_1(object sender, EventArgs e)
         //{
-           
+
         //    new LoginForm().Show();
         //    this.Hide();
-        }
+    
 
         private void label6_Click_1(object sender, EventArgs e)
         {
             LoginForm frm = new LoginForm();
             frm.Show();
             this.Hide();
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }
