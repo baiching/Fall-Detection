@@ -1,6 +1,7 @@
 using WebSocketSharp;
 using Newtonsoft.Json;
 using System.Diagnostics;
+
 //using AutoClosing
 
 namespace Fall_fall
@@ -33,23 +34,20 @@ namespace Fall_fall
             dynamic TotalAcc = Math.Sqrt(yz);
             dynamic acc = TotalAcc / 9.8;
 
-            
-            //var acc = fd.Fall(stuff1);
-            //this.ACCCC = acc;
 
             if (acc >= 0.3 && acc <= 0.7)
             {
                 state = 1;
                 //MessageBox.Show("Calling for help");
-                
+
 
             }
-            
+
             else if (acc > 3 && state == 1)
             {
-                state = 2; //trigger the timer
+                state++; //trigger the timer
                 this.clock.Start();
-                this.timePassedMili = clock.ElapsedMilliseconds; 
+                this.timePassedMili = clock.ElapsedMilliseconds;
                 //this.fall_status = true;
 
                 //var result = MessageBox.Show("Are you okay?", "Delete", MessageBoxButtons.YesNo);
@@ -69,9 +67,11 @@ namespace Fall_fall
                 //    //this.textBox1.Text = "Yo Yo";
                 //    MessageBox.Show("Calling for help");
                 //}
+                //MessageBox.Show("Calling for help");
+                acc = 0;
 
             }
-            else if(state == 2 && acc > 0.4 && acc < 2.0)
+            else if (state == 2 && acc > 0.4 && acc < 2.0)
             {
                 state = 0; //trigger the timer
                 //this.clock.Start();
@@ -90,7 +90,16 @@ namespace Fall_fall
                     //this.textBox1.Text = "Yo Yo";
                     MessageBox.Show("Calling for help");
                 }
+                acc = 0;
+                state= 0;
             }
+
+
+
+            //var acc = fd.Fall(stuff1);
+            //this.ACCCC = acc;
+
+
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
@@ -101,8 +110,8 @@ namespace Fall_fall
         private void btnStart_Click(object sender, EventArgs e)
         {
             WebSocket ws = new WebSocket("ws://192.168.0.27:8081/sensor/connect?type=android.sensor.accelerometer");
-            
-            
+            //WebSocket ws = new WebSocket("ws://Redmi-Note-10-Pro:8081");
+
             ws.OnMessage += Ws_OnMessage;
 
             ws.Connect();
